@@ -12,6 +12,6 @@ RSpec.describe Race do
 
   describe '#loser' do
     it 'returns the loser'
-    it 'is no the winner'
+    it 'is not the winner'
   end
 end
