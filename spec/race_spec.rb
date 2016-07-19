@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe Race do
   describe '::new' do
     it 'instantiates two cars'
-    it 'accelerates the cars to specified speeds'
+    it 'accelerates the cars to random speeds'
   end
   describe '#winner' do
     it 'returns the winner'
