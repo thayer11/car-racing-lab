@@ -5,12 +5,12 @@ RSpec.describe Race do
     it 'instantiates two cars'
     it 'accelerates the cars to random speeds'
   end
-  describe '#winner?' do
+  describe '#winner' do
     it 'returns the winner'
     it 'is not the loser'
   end
 
-  describe '#loser?' do
+  describe '#loser' do
     it 'returns the loser'
     it 'is not the winner'
   end
